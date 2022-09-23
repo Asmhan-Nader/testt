@@ -13,9 +13,12 @@ for i in range(num):
         print(i.get_student())
 search =int(input("enter your num"))
 for i in student_list:
-    if  search in i["student_num"]:
+    if  search == i.student_num:
         print("its exist")
-
+search2 =input("enter course name")
+for i in student_course:
+    if  search2 == i.course_name:
+        print("its exist")
 
 
 
