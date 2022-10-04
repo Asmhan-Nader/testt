@@ -54,7 +54,7 @@ while True:# in order not to stop the program
         cours = Course(course_name, course_class,course_id)
         student_course.append(cours)
      if num ==6:
-         stu_id = input("enter stu id")
+         stu_id = int(input("enter stu id"))
          for i in student_list:
              if i.student_num == stu_id:
                  a=student_list.index(i)
